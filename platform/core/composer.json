@@ -20,8 +20,8 @@
         "ext-zip": "*",
         "ext-gd": "*",
         "barryvdh/laravel-dompdf": "^3.1",
-        "guestcms/assets": "^1.0",
-        "guestcms/form-builder": "^1.0",
+        "guestcms/assets": "dev-main",
+        "guestcms/form-builder": "dev-main",
         "intervention/image": "^3.4",
         "maennchen/zipstream-php": "3.1.*",
         "mobiledetect/mobiledetectlib": "^4.8",
@@ -97,4 +97,23 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/laravel-assets"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/laravel-form-builder"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/dev-tool"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/git-commit-checker"
+        },
+        
+    ]
 }

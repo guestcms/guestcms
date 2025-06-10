@@ -13,20 +13,20 @@
         "ext-zip": "*",
         "guestcms/api": "dev-main",
         "guestcms/data-synchronize": "dev-main",
-        "guestcms/platform/packages/get-started": "*",
-        "guestcms/platform/packages/installer": "*",
-        "guestcms/platform/packages/menu": "*",
-        "guestcms/platform/packages/optimize": "*",
-        "guestcms/platform/packages/page": "*",
-        "guestcms/platform/packages/platform": "*",
-        "guestcms/platform/packages/plugin-management": "*",
-        "guestcms/platform/packages/revision": "*",
-        "guestcms/platform/packages/seo-helper": "*",
-        "guestcms/platform/packages/shortcode": "*",
-        "guestcms/platform/packages/sitemap": "*",
-        "guestcms/platform/packages/slug": "*",
-        "guestcms/platform/packages/theme": "*",
-        "guestcms/platform/packages/widget": "*",
+        "guestcms/get-started": "*@dev",
+        "guestcms/installer": "*@dev",
+        "guestcms/menu": "*@dev",
+        "guestcms/optimize": "*@dev",
+        "guestcms/page": "*@dev",
+        "guestcms/platform": "*@dev",
+        "guestcms/plugin-management": "*@dev",
+        "guestcms/revision": "*@dev",
+        "guestcms/seo-helper": "*@dev",
+        "guestcms/shortcode": "*@dev",
+        "guestcms/sitemap": "*@dev",
+        "guestcms/slug": "*@dev",
+        "guestcms/theme": "*@dev",
+        "guestcms/widget": "*@dev",
         "doctrine/dbal": "^4.2",
         "guzzlehttp/guzzle": "^7.9",
         "knuckleswtf/scribe": "^5.2",
@@ -132,58 +132,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/guestcms/git-commit-checker"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/get-started"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/installer"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/menu"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/optimize"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/page"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/plugin-management"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/revision"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/seo-helper"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/shortcode"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/sitemap"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/slug"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/theme"
-        },
-        {
-            "type": "path",
-            "url": "./platform/packages/widget"
         },
         {
             "type": "path",

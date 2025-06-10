@@ -11,22 +11,22 @@
         "ext-json": "*",
         "ext-pdo": "*",
         "ext-zip": "*",
-        "guestcms/api": "https://github:guestcms/api",
-        "guestcms/data-synchronize": "https://github.com/guestcms/data-synchronize",
-        "guestcms/get-started": "*@dev",
-        "guestcms/installer": "*@dev",
-        "guestcms/menu": "*@dev",
-        "guestcms/optimize": "*@dev",
-        "guestcms/page": "*@dev",
-        "guestcms/platform": "*@dev",
-        "guestcms/plugin-management": "*@dev",
-        "guestcms/revision": "*@dev",
-        "guestcms/seo-helper": "*@dev",
-        "guestcms/shortcode": "*@dev",
-        "guestcms/sitemap": "*@dev",
-        "guestcms/slug": "*@dev",
-        "guestcms/theme": "*@dev",
-        "guestcms/widget": "*@dev",
+        "guestcms/api": "dev-main",
+        "guestcms/data-synchronize": "dev-main",
+        "guestcms/get-started": "dev-main",
+        "guestcms/installer": "dev-main",
+        "guestcms/menu": "dev-main",
+        "guestcms/optimize": "dev-main",
+        "guestcms/page": "dev-main",
+        "guestcms/platform": "dev-main",
+        "guestcms/plugin-management": "dev-main",
+        "guestcms/revision": "dev-main",
+        "guestcms/seo-helper": "dev-main",
+        "guestcms/shortcode": "dev-main",
+        "guestcms/sitemap": "dev-main",
+        "guestcms/slug": "dev-main",
+        "guestcms/theme": "dev-main",
+        "guestcms/widget": "dev-main",
         "doctrine/dbal": "^4.2",
         "guzzlehttp/guzzle": "^7.9",
         "knuckleswtf/scribe": "^5.2",
@@ -117,6 +117,70 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/data-synchronize"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/get-started"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/installer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/menu"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/optimize"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/page"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/platform"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/plugin-management"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/revision"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/seo-helper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/shortcode"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/sitemap"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/slug"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/theme"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/guestcms/widget"
+        },
         {
             "type": "path",
             "url": "./platform/core"

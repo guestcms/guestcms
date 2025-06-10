@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/language",
+    "name": "Language",
+    "namespace": "Guestcms\\Language\\",
+    "provider": "Guestcms\\Language\\Providers\\LanguageServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.2.6",
+    "description": "Multi-language features.",
+    "minimum_core_version": "7.3.0"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "guestcms/widget",
+    "description": "Widget package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Widget\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev",
+        "guestcms/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Widget\\Providers\\WidgetServiceProvider"
+            ],
+            "aliases": {
+                "Widget": "Guestcms\\Widget\\Facades\\Widget",
+                "WidgetGroup": "Guestcms\\Widget\\Facades\\WidgetGroup"
+            }
+        }
+    }
+}

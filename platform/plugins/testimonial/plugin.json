@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/testimonial",
+    "name": "Testimonial",
+    "namespace": "Guestcms\\Testimonial\\",
+    "provider": "Guestcms\\Testimonial\\Providers\\TestimonialServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.1.6",
+    "description": "Customer testimonials",
+    "minimum_core_version": "7.3.0"
+}

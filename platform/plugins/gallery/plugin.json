@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/gallery",
+    "name": "Gallery",
+    "namespace": "Guestcms\\Gallery\\",
+    "provider": "Guestcms\\Gallery\\Providers\\GalleryServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.0.6",
+    "description": "Create or easy to add gallery images to posts, pages...",
+    "minimum_core_version": "7.3.0"
+}

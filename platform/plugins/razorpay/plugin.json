@@ -1,0 +1,14 @@
+{
+    "id": "guestcms/razorpay",
+    "name": "Razorpay Payment Gateway",
+    "namespace": "Guestcms\\Razorpay\\",
+    "provider": "Guestcms\\Razorpay\\Providers\\RazorpayServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "1.0.3",
+    "description": "Razorpay payment gateway integration",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "guestcms/payment"
+    ]
+}

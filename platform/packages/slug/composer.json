@@ -1,0 +1,23 @@
+{
+    "name": "guestcms/slug",
+    "description": "Slug/Permalink",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Slug\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Slug\\Providers\\SlugServiceProvider"
+            ],
+            "aliases": {
+                "SlugHelper": "Guestcms\\Slug\\Facades\\SlugHelper"
+            }
+        }
+    }
+}

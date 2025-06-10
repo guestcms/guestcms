@@ -1,0 +1,6 @@
+{
+    "name": "guestcms/paystack",
+    "description": "Paystack",
+    "type": "package",
+    "require": {}
+}

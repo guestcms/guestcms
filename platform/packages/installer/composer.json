@@ -1,0 +1,20 @@
+{
+    "name": "guestcms/installer",
+    "description": "Installer package for Guestcms CMS application",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Installer\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Installer\\Providers\\InstallerServiceProvider"
+            ]
+        }
+    }
+}

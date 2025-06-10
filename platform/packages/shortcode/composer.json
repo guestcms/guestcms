@@ -1,0 +1,23 @@
+{
+    "name": "guestcms/shortcode",
+    "description": "Shortcode package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Shortcode\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Shortcode\\Providers\\ShortcodeServiceProvider"
+            ],
+            "aliases": {
+                "Shortcode": "Guestcms\\Shortcode\\Facades\\Shortcode"
+            }
+        }
+    }
+}

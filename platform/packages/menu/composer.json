@@ -1,0 +1,24 @@
+{
+    "name": "guestcms/menu",
+    "description": "Menu package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Menu\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev",
+        "guestcms/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Menu\\Providers\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Guestcms\\Menu\\Facades\\Menu"
+            }
+        }
+    }
+}

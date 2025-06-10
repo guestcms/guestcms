@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/cookie-consent",
+    "name": "Cookie Consent",
+    "namespace": "Guestcms\\CookieConsent\\",
+    "provider": "Guestcms\\CookieConsent\\Providers\\CookieConsentServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.0.7",
+    "description": "Cookie Consent",
+    "minimum_core_version": "7.3.0"
+}

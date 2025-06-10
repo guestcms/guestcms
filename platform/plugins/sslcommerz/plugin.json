@@ -1,0 +1,14 @@
+{
+    "id": "guestcms/sslcommerz",
+    "name": "SslCommerz Payment Gateway",
+    "namespace": "Guestcms\\SslCommerz\\",
+    "provider": "Guestcms\\SslCommerz\\Providers\\SslCommerzServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "1.0.3",
+    "description": "SslCommerz payment gateway integration",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "guestcms/payment"
+    ]
+}

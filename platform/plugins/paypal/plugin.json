@@ -1,0 +1,14 @@
+{
+    "id": "guestcms/paypal",
+    "name": "PayPal Payment Gateway",
+    "namespace": "Guestcms\\PayPal\\",
+    "provider": "Guestcms\\PayPal\\Providers\\PayPalServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "1.0.3",
+    "description": "PayPal payment gateway integration",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "guestcms/payment"
+    ]
+}

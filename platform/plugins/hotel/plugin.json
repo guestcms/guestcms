@@ -1,0 +1,10 @@
+{
+    "id": "guestcms/hotel",
+    "name": "Hotel",
+    "namespace": "Guestcms\\Hotel\\",
+    "provider": "Guestcms\\Hotel\\Providers\\HotelServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "1.3",
+    "description": "Hotel management plugin"
+}

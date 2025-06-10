@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/backup",
+    "name": "Backup",
+    "namespace": "Guestcms\\Backup\\",
+    "provider": "Guestcms\\Backup\\Providers\\BackupServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.0.6",
+    "description": "Backup & restore database, uploads folder",
+    "minimum_core_version": "7.3.0"
+}

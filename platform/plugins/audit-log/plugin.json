@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/audit-log",
+    "name": "Audit Log",
+    "namespace": "Guestcms\\AuditLog\\",
+    "provider": "Guestcms\\AuditLog\\Providers\\AuditLogServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.0.6",
+    "description": "Record activities logs",
+    "minimum_core_version": "7.3.0"
+}

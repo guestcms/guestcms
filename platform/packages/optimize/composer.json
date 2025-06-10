@@ -1,0 +1,23 @@
+{
+    "name": "guestcms/optimize",
+    "description": "Optimize page speed package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Optimize\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Optimize\\Providers\\OptimizeServiceProvider"
+            ],
+            "aliases": {
+                "OptimizerHelper": "Guestcms\\Optimize\\Facades\\OptimizerHelper"
+            }
+        }
+    }
+}

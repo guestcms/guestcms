@@ -1,0 +1,10 @@
+{
+    "productId": "BBB3101E",
+    "source": "Coastal Media Brand",
+    "apiUrl": "https://license.guestcms.com",
+    "apiKey": "CAF4B17F6D3F656125F9",
+    "version": "1.43.5",
+    "marketplaceUrl": "https://marketplace.guestcms.com/api/v1",
+    "marketplaceToken": "7b8247467ee676b988b2e5ed36f9fdd8ed37bdd8",
+    "minimumPhpVersion": "8.2.0"
+}

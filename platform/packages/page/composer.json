@@ -1,0 +1,21 @@
+{
+    "name": "guestcms/page",
+    "description": "Page package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Page\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev",
+        "guestcms/revision": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Page\\Providers\\PageServiceProvider"
+            ]
+        }
+    }
+}

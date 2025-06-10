@@ -1,0 +1,21 @@
+{
+	"name": "guestcms/sitemap",
+	"description": "Sitemap package for Laravel.",
+	"license": "MIT",
+	"require": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Guestcms\\Sitemap\\": "src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Guestcms\\Sitemap\\Providers\\SitemapServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

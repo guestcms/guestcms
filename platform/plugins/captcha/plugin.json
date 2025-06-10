@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/captcha",
+    "name": "Captcha",
+    "namespace": "Guestcms\\Captcha\\",
+    "provider": "Guestcms\\Captcha\\Providers\\CaptchaServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.1.6",
+    "description": "Captcha for higher security",
+    "minimum_core_version": "7.3.0"
+}

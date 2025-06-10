@@ -1,0 +1,24 @@
+{
+    "name": "guestcms/seo-helper",
+    "description": "SEO helper package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\SeoHelper\\": "src"
+        }
+    },
+    "require": {
+        "guestcms/platform": "*@dev",
+        "guestcms/theme": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\SeoHelper\\Providers\\SeoHelperServiceProvider"
+            ],
+            "aliases": {
+                "SeoHelper": "Guestcms\\SeoHelper\\Facades\\SeoHelper"
+            }
+        }
+    }
+}

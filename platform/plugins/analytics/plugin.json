@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/analytics",
+    "name": "Analytics",
+    "namespace": "Guestcms\\Analytics\\",
+    "provider": "Guestcms\\Analytics\\Providers\\AnalyticsServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.1.6",
+    "description": "Tracking data from Google Analytics",
+    "minimum_core_version": "7.3.0"
+}

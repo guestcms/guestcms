@@ -1,0 +1,11 @@
+{
+    "id": "guestcms/blog",
+    "name": "Blog",
+    "namespace": "Guestcms\\Blog\\",
+    "provider": "Guestcms\\Blog\\Providers\\BlogServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "2.0.6",
+    "description": "Manage posts, categories, tags",
+    "minimum_core_version": "7.3.0"
+}

@@ -1,0 +1,8 @@
+{
+    "id": "guestcms/mysticseamotel",
+    "name": "Mystic Sea Motel",
+    "namespace": "Theme\\mysticseamotel\\",
+    "description": "Mystic Sea Motel Website and Software System",
+    "author": "Coastal Media Brand",
+    "required_plugins": []
+}

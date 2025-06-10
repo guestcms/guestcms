@@ -1,0 +1,100 @@
+{
+    "name": "guestcms/guestcms",
+    "description": "The GuestCMS based on Laravel Framework.",
+    "keywords": [
+        "GuestCMS"
+    ],
+    "homepage": "https://coastalmediabrand.com",
+    "support": {
+        "issues": "https://coastalmediabrand.com",
+        "document": "https://coastalmediabrand.com"
+    },
+    "authors": [
+        {
+            "name": "Coastal Media Brand",
+            "email": "contact@coastalmediabrand.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "ext-zip": "*",
+        "ext-gd": "*",
+        "barryvdh/laravel-dompdf": "^3.1",
+        "guestcms/assets": "^1.0",
+        "guestcms/form-builder": "^1.0",
+        "intervention/image": "^3.4",
+        "maennchen/zipstream-php": "3.1.*",
+        "mobiledetect/mobiledetectlib": "^4.8",
+        "mpdf/mpdf": "^8.2",
+        "tightenco/ziggy": "^2.0",
+        "yajra/laravel-datatables-buttons": "^12.0",
+        "yajra/laravel-datatables-oracle": "^12.0",
+        "yajra/laravel-datatables-html": "12.0.1",
+        "mews/purifier": "^3.3",
+        "maatwebsite/excel": "^3.1",
+        "symfony/http-client": "^7.2",
+        "symfony/postmark-mailer": "^7.2",
+        "symfony/mailgun-mailer": "^7.2",
+        "twig/twig": "^3.14",
+        "league/flysystem-aws-s3-v3": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guestcms\\Support\\": "support/src",
+            "Guestcms\\ACL\\": "acl/src",
+            "Guestcms\\Base\\": "base/src",
+            "Guestcms\\Base\\Tests\\": "base/tests",
+            "Guestcms\\Dashboard\\": "dashboard/src",
+            "Guestcms\\Media\\": "media/src",
+            "Guestcms\\Setting\\": "setting/src",
+            "Guestcms\\Table\\": "table/src",
+            "Guestcms\\JsValidation\\": "js-validation/src",
+            "Guestcms\\Chart\\": "chart/src",
+            "Guestcms\\Icon\\": "icon/src",
+            "Tightenco\\Ziggy\\": "base/src/Ziggy"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Guestcms\\Base\\Providers\\BaseServiceProvider",
+                "Guestcms\\Base\\Providers\\CommandServiceProvider",
+                "Guestcms\\Base\\Providers\\EventServiceProvider",
+                "Guestcms\\Base\\Providers\\ComposerServiceProvider",
+                "Guestcms\\Base\\Providers\\MailConfigServiceProvider",
+                "Guestcms\\Base\\Providers\\FormServiceProvider",
+                "Guestcms\\Support\\Providers\\SupportServiceProvider",
+                "Guestcms\\Table\\Providers\\TableServiceProvider",
+                "Guestcms\\ACL\\Providers\\AclServiceProvider",
+                "Guestcms\\Dashboard\\Providers\\DashboardServiceProvider",
+                "Guestcms\\Media\\Providers\\MediaServiceProvider",
+                "Guestcms\\JsValidation\\Providers\\JsValidationServiceProvider",
+                "Guestcms\\Chart\\Providers\\ChartServiceProvider",
+                "Guestcms\\Icon\\Providers\\IconServiceProvider"
+            ],
+            "aliases": {
+                "Action": "Guestcms\\Base\\Facades\\Action",
+                "AdminAppearance": "Guestcms\\Base\\Facades\\AdminAppearance",
+                "AdminHelper": "Guestcms\\Base\\Facades\\AdminHelper",
+                "Assets": "Guestcms\\Base\\Facades\\Assets",
+                "BaseHelper": "Guestcms\\Base\\Facades\\BaseHelper",
+                "Breadcrumbs": "Guestcms\\Base\\Facades\\Breadcrumbs",
+                "DashboardMenu": "Guestcms\\Base\\Facades\\DashboardMenu",
+                "CoreIcon": "Guestcms\\Icon\\Facades\\Icon",
+                "EmailHandler": "Guestcms\\Base\\Facades\\EmailHandler",
+                "Filter": "Guestcms\\Base\\Facades\\Filter",
+                "Form": "Guestcms\\Base\\Facades\\Form",
+                "Html": "Guestcms\\Base\\Facades\\Html",
+                "JsValidator": "Guestcms\\JsValidation\\Facades\\JsValidator",
+                "MacroableModels": "Guestcms\\Base\\Facades\\MacroableModels",
+                "MetaBox": "Guestcms\\Base\\Facades\\MetaBox",
+                "PageTitle": "Guestcms\\Base\\Facades\\PageTitle",
+                "PanelSectionManager": "Guestcms\\Base\\Facades\\PanelSectionManager",
+                "RvMedia": "Guestcms\\Media\\Facades\\RvMedia",
+                "Setting": "Guestcms\\Setting\\Facades\\Setting"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

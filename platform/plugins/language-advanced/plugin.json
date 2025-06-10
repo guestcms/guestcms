@@ -1,0 +1,14 @@
+{
+    "id": "guestcms/language-advanced",
+    "name": "Language Advanced",
+    "namespace": "Guestcms\\LanguageAdvanced\\",
+    "provider": "Guestcms\\LanguageAdvanced\\Providers\\LanguageAdvancedServiceProvider",
+    "author": "Coastal Media Brand",
+    "url": "https://coastalmediabrand.com",
+    "version": "1.2.6",
+    "description": "Advanced Multi-language",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "guestcms/language"
+    ]
+}

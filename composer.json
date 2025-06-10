@@ -11,8 +11,8 @@
         "ext-json": "*",
         "ext-pdo": "*",
         "ext-zip": "*",
-        "guestcms/api": "dev-main",
-        "guestcms/data-synchronize": "dev-main",
+        "guestcms/api": "main",
+        "guestcms/data-synchronize": "main",
         "guestcms/get-started": "*@dev",
         "guestcms/installer": "*@dev",
         "guestcms/menu": "*@dev",
@@ -38,8 +38,8 @@
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.8",
-        "guestcms/dev-tool": "^1.0.2",
-        "guestcms/git-commit-checker": "^2.1",
+        "guestcms/dev-tool": "main",
+        "guestcms/git-commit-checker": "main",
         "driftingly/rector-laravel": "^2.0",
         "fakerphp/faker": "^1.23",
         "larastan/larastan": "^3.0",
@@ -127,59 +127,11 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/guestcms/get-started"
+            "url": "https://github.com/guestcms/dev-tool"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/guestcms/installer"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/menu"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/optimize"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/page"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/platform"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/plugin-management"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/revision"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/seo-helper"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/shortcode"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/sitemap"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/slug"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/theme"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/guestcms/widget"
+            "url": "https://github.com/guestcms/git-commit-checker"
         },
         {
             "type": "path",

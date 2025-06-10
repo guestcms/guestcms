@@ -1,13 +1,13 @@
 {
-    "name": "guestcms/guestcms",
+    "name": "guestcms/platform",
     "description": "The GuestCMS based on Laravel Framework.",
     "keywords": [
         "GuestCMS"
     ],
-    "homepage": "https://coastalmediabrand.com",
+    "homepage": "https://guestcms.com",
     "support": {
-        "issues": "https://coastalmediabrand.com",
-        "document": "https://coastalmediabrand.com"
+        "issues": "https://guestcms.com",
+        "document": "https://guestcms.com"
     },
     "authors": [
         {
@@ -96,8 +96,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
-  "repositories": [
+    "prefer-stable": true,
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/guestcms/laravel-assets"
@@ -113,7 +113,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/guestcms/git-commit-checker"
-        },
-        
+        }
     ]
 }

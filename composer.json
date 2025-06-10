@@ -11,7 +11,7 @@
         "ext-json": "*",
         "ext-pdo": "*",
         "ext-zip": "*",
-        "guestcms/api": "^2.0.0",
+        "guestcms/api": "github:guestcms/api",
         "guestcms/data-synchronize": "^1.0",
         "guestcms/get-started": "*@dev",
         "guestcms/installer": "*@dev",
